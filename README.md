@@ -9,8 +9,11 @@ Add new project on [firebase console](https://console.firebase.google.com/u/0/)
 ├── src
     ├── firebase.js
 ```
+#### Go to config project ⚙️ on firebase console panel and scroll down to find sdk configuration.
 
-Copy projectConfig on file: firebase.js
+`npm i firebase`
+#### Next replace firebaseConfig on firebase.js file.
+
 
 ```
 // Import the functions you need from the SDKs you need
