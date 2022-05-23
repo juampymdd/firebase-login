@@ -1,3 +1,39 @@
+#Firebase
+## Config firebase first
+Add new project on [firebase console](https://console.firebase.google.com/u/0/)
+## Create firebase.js file
+#### Language: javascript
+#### Path: src/firebase.js
+
+```
+├── src
+    ├── firebase.js
+```
+
+###copy projectConfig on file: firebase.js
+
+```
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAuth } from 'firebase/auth'
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
+};
+
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app)
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
