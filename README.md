@@ -10,7 +10,7 @@ Add new project on [firebase console](https://console.firebase.google.com/u/0/)
     ├── firebase.js
 ```
 
-####copy projectConfig on file: firebase.js
+Copy projectConfig on file: firebase.js
 
 ```
 // Import the functions you need from the SDKs you need
